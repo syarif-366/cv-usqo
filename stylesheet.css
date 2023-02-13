@@ -1,0 +1,241 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+/* heading */
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+.title-heading {
+  text-align: center;
+  line-height: 2;
+  font-weight: 700;
+  padding: 0 0 2%;
+}
+
+/* container */
+.container-fluid {
+  padding: 10% 3% 7%;
+  line-height: 2;
+}
+
+/* list group */
+.list-group {
+  height: 32rem;
+}
+
+/* header */
+#header {
+  background-image: url(https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80);
+  color: #e6e2c3;
+}
+
+.profile-img {
+  border-radius: 100%;
+  max-width: 8%;
+  position: relative;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+#header .container-fluid {
+  padding: 10% 19%;
+  text-align: center;
+}
+
+/* about me */
+#about-me {
+  background-color: #1c315e;
+  color: #e6e2c3;
+}
+
+#about-me .img-fluid {
+  max-width: 60%;
+}
+
+/* .about-me-img {
+  max-width: 60%;
+  position: relative;
+  left: 5.5rem;
+} */
+
+.profession-text {
+  font-weight: 700;
+}
+
+/* experience */
+#experience {
+  line-height: 2;
+}
+
+.work-img {
+  max-width: 75%;
+  padding: 0 2%;
+}
+
+/* course */
+#course {
+  background-color: #1c315e;
+  color: #e6e2c3;
+  line-height: 2;
+}
+
+.card {
+  background-color: #1c315e;
+}
+
+/* skills */
+#skill {
+  text-align: center;
+}
+
+.skills-icon {
+  font-size: 3.125rem;
+  padding-bottom: 1.5rem;
+}
+
+.skills-col {
+  padding: 2% 0 5%;
+}
+
+/* footer */
+#footer {
+  background-color: #1c315e;
+  color: #e6e2c3;
+  text-align: center;
+}
+
+.cta-row {
+  padding: 0 30% 5%;
+}
+
+/* phone */
+
+/* potrait phone */
+@media (max-width: 576px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  /* heading */
+  .heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  .sub-heading {
+    font-size: 0.8rem;
+  }
+
+  .date-year {
+    text-align: center;
+  }
+
+  /* about me */
+  .profession-text {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  #about-me .img-fluid {
+    max-width: 100%;
+  }
+
+  /* experience */
+  .work-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .sub-heading {
+    text-align: center;
+    line-height: 1;
+  }
+
+  .list-group {
+    height: 11rem;
+  }
+
+  /* course */
+  .card {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  /* skill */
+  .skills-icon {
+    font-size: 2rem;
+  }
+}
+
+/* landscape phone */
+@media (max-width: 767.98px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  /* heading */
+  .heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  .sub-heading {
+    font-size: 0.8rem;
+  }
+
+  .date-year {
+    text-align: center;
+  }
+
+  /* about me */
+  .profession-text {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  #about-me .img-fluid {
+    max-width: 100%;
+  }
+
+  /* experience */
+  .work-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .sub-heading {
+    text-align: center;
+    line-height: 1;
+  }
+
+  .list-group {
+    height: 11rem;
+  }
+
+  /* course */
+  .card {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* skill */
+  .skills-icon {
+    font-size: 2rem;
+  }
+}
+
+/* tablet  */
+@media (max-width: 1049px) {
+  body {
+    font-size: 0, 5rem;
+  }
+}
